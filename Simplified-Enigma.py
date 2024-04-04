@@ -31,7 +31,7 @@ if command == 1:
     result.write("".join(encrypted))
     print("encryption complete.\n\n")
     print(f"The decryption key is {crypting_value}")
-    time.sleep(20)
+    time.sleep(10)
 elif command == 2:
     print("insert message to decrypt.")
     to_decrypt = list(input())
@@ -53,6 +53,6 @@ elif command == 2:
     result = open("result.txt", "w")
     result.write("".join(decrypted))
     print("decryption complete.")
-    time.sleep(15)
+    time.sleep(10)
 else:
     pass
