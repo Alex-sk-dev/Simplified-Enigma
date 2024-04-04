@@ -35,7 +35,6 @@ if command == 1:
 elif command == 2:
     print("insert message to decrypt.")
     to_decrypt = list(input())
-    print(to_decrypt)
     message_len = len(to_decrypt)
     importantvalue = int(input("input starting value from the encryption process... "))
     decrypted = []
