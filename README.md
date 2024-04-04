@@ -9,19 +9,25 @@ signal turning wheel instead of 2 or more as were on the original Enigma machine
 
 When you open the program, you will be prompted with 2 options - to encrypt or to decrypt.
 
-Let's start with encryption.
+Option 1 - encryption.
+
   Upon choosing to encrypt, you will be prompted to write a message to encrypt. Press enter once you are done writing it.
   This will initiate the encryption process of the message which will result in a sort of hash. You will also be given the
   decryption key, which will be needed for the decryption.
   You will have 20 seconds to extract the decryption key.
 
+  
+
 Option 2 - decryption.
+
   Upon choosing to decrypt, you will be prompted to enter the message hash from the encryption process to decrypt.
   Upon entering this, you will be prompted to enter the decryption code which you have received from the encryption process.
   Entering the wrong encryption code will result in the decryption failing.
   Upon entering the decryption key, correct or not, the decryption process will run.
   If the decryption key you have entered is correct, you will receive back the message you encrypted.
   If the decryption key you entered is wrong, you will receive a broken up hash.    
+
+  
 
 In both cases, you will find the resuslt of the operation in a text file named "result.txt" in the same folder as the Enigma progam itself.
 
