@@ -2,7 +2,7 @@
 
 As the name implies, this python program was inspired by the Nazi germany's encryption device "Enigma".
 The code encrypts messages the same way an enigma would with the exception of there being only one
-signal turning wheel insstead of 2 or more as were on the original Enigma machines.
+signal turning wheel instead of 2 or more as were on the original Enigma machines.
 
 
 # How it works
@@ -30,5 +30,6 @@ In both cases, you will find the resuslt of the operation in a text file named "
 As the real enigma did, this virtual enigma machine uses a list of characters for the encryption.
 If you attempt to use a character which is not in the list, it will break the code. Please, refrain
 from using unsupported characters for this very reason.
-as for the list itself, here it is:
+
+As for the list itself, here it is:
 [" ",".",",","0","1","2","3","4","5","6","7","8","9","$","'",'"',"+","#","!","?","€", "a", "A", "b", "B","c", "C","d", "D","e", "E","f", "F","g", "G","h", "H","i", "I","j", "J","k", "K","l", "L","m", "M","n", "N","o", "O","p", "P","q", "Q","r", "R","s", "S","t", "T","u", "U","v", "V","w", "W","x", "X","y", "Y","z", "Z"]
