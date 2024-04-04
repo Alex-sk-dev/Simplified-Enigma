@@ -38,7 +38,6 @@ elif command == 2:
     message_len = len(to_decrypt)
     importantvalue = int(input("input starting value from the encryption process... "))
     decrypted = []
-    sidestep = 0
     skip = importantvalue
     while step != message_len:
         decrypting = to_decrypt[step]
