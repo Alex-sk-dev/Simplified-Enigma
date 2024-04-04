@@ -17,8 +17,6 @@ if command == 1:
     skip = crypting_value
     encrypted = []
     while step != message_len:
-        print(step)
-        print(len(to_encrypt))
         encrypting = to_encrypt[step]
         pos = codeables.index(str(encrypting))
         if skip >= len(codeables):
