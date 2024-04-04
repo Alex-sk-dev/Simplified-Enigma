@@ -14,7 +14,7 @@ Option 1 - encryption.
   Upon choosing to encrypt, you will be prompted to write a message to encrypt. Press enter once you are done writing it.
   This will initiate the encryption process of the message which will result in a sort of hash. You will also be given the
   decryption key, which will be needed for the decryption.
-  You will have 20 seconds to extract the decryption key.
+  You will have 10 seconds to extract the decryption key.
 
   
 
