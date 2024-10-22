@@ -1,3 +1,8 @@
+# Prerequisites
+
+This project demands that you have python installed for it to run. If you do not have python installed, please
+direct yourself to the official python download website: https://www.python.org/downloads/
+
 # Idea for the project
 
 As the name implies, this python program was inspired by the Nazi germany's encryption device "Enigma".
