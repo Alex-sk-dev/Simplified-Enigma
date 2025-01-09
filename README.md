@@ -27,7 +27,7 @@ Option 2 - decryption.
 
   Upon choosing to decrypt, you will be prompted to enter the message hash from the encryption process to decrypt.
   Upon entering this, you will be prompted to enter the decryption code which you have received from the encryption process.
-  Entering the wrong encryption code will result in the decryption failing.
+  Entering the wrong encryption code will result in the decryption failing (i.e. receiving a nonsense output).
   Upon entering the decryption key, correct or not, the decryption process will run.
   If the decryption key you have entered is correct, you will receive back the message you encrypted.
   If the decryption key you entered is wrong, you will receive a broken up hash.    
