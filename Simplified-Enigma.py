@@ -5,14 +5,17 @@ crypting_value = random.randint(0, 9999)
 step = 0
 
 codeables = ["§","/","[","]","@","{","}","<",">","&","*","","|",";","~","`","÷","×","ß","¤","-","_",":", " ",".",",","(",")", "0","1","2","3","4","5","6","7","8","9","$","'",'"',"+","#","!","?","€", "a","á","ä", "A","Á", "b", "B","c","ć","č", "C","Ć","Č","d","ď", "D","Ď","e","é","ě", "E","É","Ě","f", "F","g", "G","h", "H","i","í", "I","Í","j", "J","k", "K","l","ĺ","ľ", "L","Ĺ","Ľ","m", "M","n","ň", "N","Ň","o","ó","ô", "O","Ó","p", "P","q", "Q","r","ŕ","ř", "R","Ŕ","Ř","s","ś","š", "S","Ś","Š","t","ť", "T","Ť","u","ú", "U","Ú","v", "V","w", "W","x", "X","y","ý", "Y","Ý","z","ź","ž", "Z","Ź","Ž"]
-
+to_encrypt = []
+to_decrypt = []
 print("[1] encrypt")
 print("[2] decrypt")
 command = int(input())
 
 if command == 1:
     print("Enter message to encrypt.")
-    to_encrypt = list(input())
+    _input = str(input())
+    for i in range(0,len(_input),1):
+        to_encrypt.append(_input[i])
     message_len = len(to_encrypt)
     skip = crypting_value
     encrypted = []
@@ -34,7 +37,9 @@ if command == 1:
     time.sleep(10)
 elif command == 2:
     print("insert message to decrypt.")
-    to_decrypt = list(input())
+    _input = str(input())
+    for i in range(0,len(_input),1):
+        to_decrypt.append(_input[i])
     message_len = len(to_decrypt)
     importantvalue = int(input("input starting value from the encryption process... "))
     decrypted = []
